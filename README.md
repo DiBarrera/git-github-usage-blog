@@ -5,8 +5,9 @@
 -->
 
 
-# git-github-usage-blog
-Git and Github Usage Practice with Blog project
+# Git and Github Usage
+
+## Git and Github Usage Practice with Blog project
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -29,12 +30,13 @@ Git and Github Usage Practice with Blog project
 <!-- Overviwe -->
 ## Overviwe
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis enim ut tellus elementum sagittis vitae. Bibendum at varius vel pharetra vel turpis. Nunc mattis enim ut tellus elementum. Diam vulputate ut pharetra sit. Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Massa massa ultricies mi quis. Venenatis a condimentum vitae sapien. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Tincidunt eget nullam non nisi. Tortor vitae purus faucibus ornare suspendisse sed. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit.
+In this repository you will find a brief summary of what was learned in the [platzi](https://platzi.com/clases/git-github/) course of Git and GitHub.
 
-Here's why:
-* Libero justo laoreet sit amet cursus sit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Donec massa sapien faucibus et molestie ac. Facilisi morbi tempus iaculis urna id volutpat lacus.
-* Libero justo laoreet sit amet cursus sit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Donec massa sapien faucibus et molestie ac. Facilisi morbi tempus iaculis urna id volutpat lacus.
-* Libero justo laoreet sit amet cursus sit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Donec massa sapien faucibus et molestie ac. Facilisi morbi tempus iaculis urna id volutpat lacus.
+You will see that it conforms:
+* Steps to clone this repository and view what was learned on your own system.
+* Main topics seen in the course
+* A list of the commands used to create this repository
+* Skills acquired at the end of the course
 
 
 
