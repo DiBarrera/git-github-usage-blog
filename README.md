@@ -92,25 +92,49 @@ You can see the path in commits made
 <!-- Command list -->
 ## Command list
 
-| ** Alias        | !--- |
+** Alias
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `alias command-name = "newcommand`     | Configure a command to act with its new alias. |
-| `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands. | 
-| `git config --global alias.name-of-command "command-git"` ó `Ctrl + L`   | Set the command `command-git` globally to execute "`name-of-command`". |
+| `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands. |
+| `git config --global alias.name-of-command "command-git"` ó `Ctrl + L`   | Set the command `command-git` globally to execute "`name-of-command`". | 
 
-| ** Add        | !--- |
+** Add
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git add .`     | Add all files from the working directory to the stragin area. |
 | `git add file-name.ext`    | Add a file or directory from the working directory to the stragin area. | 
 
-| ** Blame        | !--- |
+** Blame
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git blame -c file-name.ext`     | Shows the user who work in an especific file, displaying time and date betweent atributes. |
-| `git blame file-name.ext`    | Shows the user who work in an especific file, displaying time and date. | 
+| `git blame file-name.ext`    | Shows the user who work in an especific file, displaying time and date. |
 | `git blame file-name.ext L initial-number, final-numer -c`    | Shows the user who work in an especific file, detailing time and date of every tabulation between every atribute of the initial number line and the final numer line. | 
+
+** Branch
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git branch -a`     | Displays existing branches inside the git reposiroty and the remote repository. |
+| `git branch -d branch-name`    | Deletes the branch branch-name. |
+| `git branch -l`    | List all existing branches. |
+| `git branch -m branch-name new-branch-name`     | Allows to rename the branch-name to new-branch-name. |
+| `git show-branch`     | Displays existing branches and their hisotry. |
+| `git show-branch --all`     | Displays all existing branches and their history. |
+| `git stash branch branch-name`     | Creates a branch named branch-name from the saving stach and positions you in it. | 
+
+** Checkout
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git checkout -b branch-name`     | Creates a new branch named branch-name and positions you in it. |
+| `git checkout hash file-name.ext`    | Allows moving a file file-name.ext back to state according to a commit identified by its hash. |
+| `git checkout hash file-name.ext`    | Change the state of a file file-name.ext according to the last master version. |
+| `git checkout branch-name`     | Move to from the currently branch to the branch branch-name. | 
+
+** Cherry-pick
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git cherry-pick hash`     | Brings an old commit identified by its hash to the actual branch. | 
 
 
 
