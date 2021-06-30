@@ -156,6 +156,30 @@ You can see the path in commits made
 | `git commit --ammend -m "messge"`     | This option will modify the last commit. Instead of creating a new commit. |
 | `git commit -m "messge"`     | Add the files from the stagin area to the git repository with a description in the "message". | 
 
+## Config
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git config`    | Displays all configurations in Git. |
+| `git config --global color.ui true`    | Enable true colors in the UI. |
+| `git congit --global core.editor "C:\program-files\software\file.ext"`     | Change the deault vim editor to the selected one
+. |
+| `git config --global user.name "user-name`     | Set a username to user-name. |
+| `git config --global user.email "mail@hosting.com"`     | Set the email to mail@hosting.com. |
+| `git config --list`     | Show default git settings. |
+| `git config -list -show-origin`     | Shows where the settings are saved. |
+| `git config -global alias.new-command-name-git "command-name-git"`     | Set the global command-name-git command to run as new-command-name-git. | 
+
+## Diff
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git diff hash-1 hash-2`    | Shows the changes that have been made between commit 1 identified as hash-1 and commit 2 identified as hash-2. |
+| `git diff olf-hash`    | Shows the changes that have been made since the commit identified as old-hash and the current state of the repository. | 
+
+## Fetch
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git fetch`    | Shows the changes that have been made between commit 1 identified as hash-1 and commit 2 identified as hash-2. |
+| `git fetch olf-hash`    | Downloads changes from remote repository to the git repository, but does not copy them into the working directory. | 
 
 
 <!-- Acquired skills -->
