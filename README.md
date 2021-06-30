@@ -92,12 +92,25 @@ You can see the path in commits made
 <!-- Command list -->
 ## Command list
 
-| Alias        |
+| ** Alias        | !--- |
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `alias command-name = "newcommand`     | Configure a command to act with its new alias. |
-| `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands | 
+| `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands. | 
 | `git config --global alias.name-of-command "command-git"` ó `Ctrl + L`   | Set the command `command-git` globally to execute "`name-of-command`". |
+
+| ** Add        | !--- |
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git add .`     | Add all files from the working directory to the stragin area. |
+| `git add file-name.ext`    | Add a file or directory from the working directory to the stragin area. | 
+
+| ** Blame        | !--- |
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git blame -c file-name.ext`     | Shows the user who work in an especific file, displaying time and date betweent atributes. |
+| `git blame file-name.ext`    | Shows the user who work in an especific file, displaying time and date. | 
+| `git blame file-name.ext L initial-number, final-numer -c`    | Shows the user who work in an especific file, detailing time and date of every tabulation between every atribute of the initial number line and the final numer line. | 
 
 
 
