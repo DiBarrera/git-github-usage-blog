@@ -92,17 +92,12 @@ You can see the path in commits made
 <!-- Command list -->
 ## Command list
 
+| Alias        |
 | Command      | Description                         |
 | ------------- | ------------------------------ |
-| `ls`     | Directory files listing. |
-| `cd`    | Change from one directory to another. | 
-| `clear` ó `Ctrl + L`   | Clean the terminal. |
-| `pwd` | Current work path directory. |
-| `file` | Describe file type. |
-| `tree`    | See files displayed by levels. |
-| `mkdir`   | Create directory. |
-| `touch`   | Create file. |
-| `cp`  | Copy file. |
+| `alias command-name = "newcommand`     | Configure a command to act with its new alias. |
+| `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands | 
+| `git config --global alias.name-of-command "command-git"` ó `Ctrl + L`   | Set the command `command-git` globally to execute "`name-of-command`". |
 
 
 
