@@ -251,6 +251,34 @@ You can see the path in commits made
 | `git push origin branch-name --tags`    | Send the tags of branch-name to a remote repository. |
 | `git push origin --tags`    | Send the tags to a remote repository. | 
 
+## Rebase
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git rebase master`    | Receives the commits of the master branch with those of the current one. |
+| `git rebase -i master`    | Receives the commits of the master branch with those of the current one, adding according to the order the commits were added interactively. | 
+
+## Reflog
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git reflog`    | Show the entire history of the repository with its HEAD. | 
+
+## Remote
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git remote -v`    | List existing remotes. |
+| `git remote add origin url`    | Connect a repository url and give a remote repository source from our local machine in the git repository. |
+| `git remote remove origin`    | Remove a connection to a remote repository. |
+| `git remote set-url origin url`    | Change the url of a remote repository to the one of origin. | 
+
+## Reset
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git reset`    | Reset current HEAD to the specified state. |
+| `git reset --hard`    | Force the reset of a current HEAD to the specified state. |
+| `git reset -hard hash`    | Remove all commits that come after a commit specified by its hash, all changes made in the staging area of the working directory are deleted. |
+| `git reset HEAD file-name.ext`    | Remove the file-name.ext file from the stagin area and leave it in the working directory. |
+| `git reset --mixed hash`    | From a commit identified by its hash, it removes all commits that come after but keeps all changes in the working directory. |
+| `git reset --soft hash`    | From a commit identified by its hash, it removes all commits that come after but keeps all changes in the staging area. |
 
 
 <!-- Acquired skills -->
