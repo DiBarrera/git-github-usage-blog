@@ -278,18 +278,47 @@ You can see the path in commits made
 | `git reset -hard hash`    | Remove all commits that come after a commit specified by its hash, all changes made in the staging area of the working directory are deleted. |
 | `git reset HEAD file-name.ext`    | Remove the file-name.ext file from the stagin area and leave it in the working directory. |
 | `git reset --mixed hash`    | From a commit identified by its hash, it removes all commits that come after but keeps all changes in the working directory. |
-| `git reset --soft hash`    | From a commit identified by its hash, it removes all commits that come after but keeps all changes in the staging area. |
+| `git reset --soft hash`    | From a commit identified by its hash, it removes all commits that come after but keeps all changes in the staging area. | 
+
+## Rm
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git rm`    | Remove files or directorys from a git repository. |
+| `git rm --cached file-name.ext`    |Remove the file file-name.ext from the staging area, but it keeps it in the working directory. |
+| `git rm --force file-name.ext`    | Remove the file file-name.ext from the staging area and from the working directory. | 
+
+## Show
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git show`    | Shows all the historical changes made and where the HEAD is. |
+| `git show -branch`    | Shows which are the branches that exist and their history. |
+| `git show -branch --all`    | Shows all existing branches and their history. |
+| `git show -ref --tags`    | List the existing tags with the respective commits. |
+| `git config -list -show-origin`    | Shows where the settings are stored. | 
+
+
+## Stash
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git stash`    | Save the repository state temporarily. |
+| `git stash apply`    | Apply the last saved stash. |
+| `git stash apply stash@{#}`    | Apply the selected stash by its id stash@{#}. |
+| `git stash branch branch-name`    | Create a branch name-branch from the last saved stash and position us in it. |
+| `git stash drop`    | Remove the last stash. |
+| `git stash drop stash@{#}`    | Remove a stash identified by its id stash@{#}. |
+| `git stash list`    | List all stashes. |
+| `git pop`    | Open the last saved stash. | 
+
+## Status
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git status`    | Shows the status of the repository, which branch we are in, which files are in the working directory and which ones are in the staging area. | 
 
 
 <!-- Acquired skills -->
 ## Acquired skills
 
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
-- Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
+- Keep a Version Control in Projects with Git.
+- Merge branches.
+- Work in Teams in a Collaborative Way.
+- Install Git on your operating system.
