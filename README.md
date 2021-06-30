@@ -92,27 +92,27 @@ You can see the path in commits made
 <!-- Command list -->
 ## Command list
 
-** Alias
+## Alias
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `alias command-name = "newcommand`     | Configure a command to act with its new alias. |
 | `alias treecommits = "git log -all -graph -decorate ---online"`    | Set the command `treecommits` to execute serveral commands. |
 | `git config --global alias.name-of-command "command-git"` ó `Ctrl + L`   | Set the command `command-git` globally to execute "`name-of-command`". | 
 
-** Add
+## Add
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git add .`     | Add all files from the working directory to the stragin area. |
 | `git add file-name.ext`    | Add a file or directory from the working directory to the stragin area. | 
 
-** Blame
+## Blame
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git blame -c file-name.ext`     | Shows the user who work in an especific file, displaying time and date betweent atributes. |
 | `git blame file-name.ext`    | Shows the user who work in an especific file, displaying time and date. |
 | `git blame file-name.ext L initial-number, final-numer -c`    | Shows the user who work in an especific file, detailing time and date of every tabulation between every atribute of the initial number line and the final numer line. | 
 
-** Branch
+## Branch
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git branch -a`     | Displays existing branches inside the git reposiroty and the remote repository. |
@@ -123,7 +123,7 @@ You can see the path in commits made
 | `git show-branch --all`     | Displays all existing branches and their history. |
 | `git stash branch branch-name`     | Creates a branch named branch-name from the saving stach and positions you in it. | 
 
-** Checkout
+## Checkout
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git checkout -b branch-name`     | Creates a new branch named branch-name and positions you in it. |
@@ -131,10 +131,30 @@ You can see the path in commits made
 | `git checkout hash file-name.ext`    | Change the state of a file file-name.ext according to the last master version. |
 | `git checkout branch-name`     | Move to from the currently branch to the branch branch-name. | 
 
-** Cherry-pick
+## Cherry-pick
 | Command      | Description                         |
 | ------------- | ------------------------------ |
 | `git cherry-pick hash`     | Brings an old commit identified by its hash to the actual branch. | 
+
+## Clean
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git clean --dry-run`     | Simulates duplicate files to be deleted without deleting them. Shows the files to be deleted. |
+| `git clean -f`    | Deletes the duplicate files inside the repository. | 
+
+## Clone
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git clone HTTPS/SSH`     | Clone the specified repository. | 
+
+## Commit
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git commit -a`    | Commit the staged snapshot. This will launch a text editor prompting you for a commit message. |
+| `git commit -m`    | immediately creates a commit with a passed commit message. |
+| `git commit -am`     | This combination immediately creates a commit of all the staged changes and takes an inline commit message. |
+| `git commit --ammend -m "messge"`     | This option will modify the last commit. Instead of creating a new commit. |
+| `git commit -m "messge"`     | Add the files from the stagin area to the git repository with a description in the "message". | 
 
 
 
