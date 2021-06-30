@@ -228,6 +228,29 @@ You can see the path in commits made
 | `git shortlog -sn --all`    | Shows the number of commits made by each contributor, including deleted commits. |
 | `git shortlog -sn --all --no merges`    | Shows the number of commits made by each contributor, including deleted commits, not including merged branches. | 
 
+## Merge
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git merge`    | Merge the files from the git repository with the ones in the working directory. |
+| `git merge branch-name`    | Merge the branch-name branch with the current one, positioning ourselves in the HEAD. |
+| `git merge brand-name-2`    | Forces to merge branch-2 with the current one, with the branch in which we are, positioning ourselves in the HEAD. | 
+
+## Pull
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git pull`    | Download changes from a remote repository within a git repository. |
+| `git pull origin branch-name`    | Download changes of a branch-name branch of a remote repository and merge them to the current branch, positioning ourselves in the HEAD. |
+| `git pull origin branch-name --allow-unrelated-histories`    | Forces the merge of a name-branch branch of a remote repository with the current one, positioning ourselves in the HEAD. | 
+
+## Push
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git push`    | Send the commits to a remote repository. |
+| `git push origin :refs/tags/tag-name`    | Remove a tag-name from a remote repository. |
+| `git push origin branch-name`    | Send the branch-name to a remote repository. |
+| `git push origin branch-name --tags`    | Send the tags of branch-name to a remote repository. |
+| `git push origin --tags`    | Send the tags to a remote repository. | 
+
 
 
 <!-- Acquired skills -->
