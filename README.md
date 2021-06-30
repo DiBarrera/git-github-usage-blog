@@ -1,10 +1,3 @@
-<!--
-*** Lorem Ipsum
-*** Lorem Ipsum
-*** Lorem Ipsum
--->
-
-
 # Git and Github Usage
 
 ## Git and Github Usage Practice with Blog project
@@ -43,31 +36,56 @@ You will see that it conforms:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Quisque egestas diam in arcu. Eget duis at tellus at urna condimentum mattis pellentesque. Dignissim enim sit amet venenatis urna. Eget mi proin sed libero. Ultrices in iaculis nunc sed. Accumsan tortor posuere ac ut consequat semper viverra.
+## Setup
 
-Scelerisque in dictum non consectetur a erat nam at. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Pellentesque sit amet porttitor eget dolor morbi. Habitant morbi tristique senectus et netus et malesuada fames ac. Senectus et netus et malesuada. Volutpat consequat mauris nunc congue. Sit amet mattis vulputate enim. Dui ut ornare lectus sit amet est placerat in. Vestibulum morbi blandit cursus risus. Massa tempor nec feugiat nisl pretium fusce. Pulvinar pellentesque habitant morbi tristique. Et netus et malesuada fames ac. Quis hendrerit dolor magna eget. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Massa tempor nec feugiat nisl pretium fusce id velit. Tempor nec feugiat nisl pretium fusce id velit.
+- Fork this repo
+- Clone this repo
 
+```shell
+$ mkdir git-github-usage-blog
+$ cd git-github-usage-blog
+$ git clone https://github.com/DiBarrera/git-github-usage-blog.git
+```
 
+As you can see here, You will find the following files:
+
+- **blogspot.html:** File created to practice using command lines with git and github
+- **css directory:** The css file linked to the HTML
+- **Historia.txt:** File created to practice using command lines with git and github
 
 <!-- Topics reviewed -->
 ## Topics reviewed
 
-Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. 
-Diam quis enim lobortis scelerisque fermentum dui. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. 
-Placerat in egestas erat imperdiet. Sit amet luctus venenatis lectus magna fringilla. 
-Volutpat maecenas volutpat blandit aliquam. Consequat interdum varius sit amet mattis vulputate enim nulla.
+The topics seen are about the use of command lines related to git and github.
+From a terminal, inside the cloned folder, you can see the commits path
+
+* Inside the directory type:
+  ```sh
+  $ git log
+  ```
+
+You can see the path in commits made
 
 ### Topics
 
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
-- Dui sapien eget mi proin sed libero.
+- How to commit.
+- Stagin files.
+- Analyze changes in files.
+- Work cycle in git.
+- Use of branch and merges.
+- "Go back in time" using `rest` and `checkout`.
+- Basic workflow with a repository using `git clone`, `git push`, `git fetch`, `git remote` and `git pull`.
+- Introduction to branches with `git branch`.
+- Merge of branches with `git merge`.
+- Using github with commands such as `git remote add origin url`, `git remote`, `git remote -v` and `git pull origin master`.
+- Public keys and private keys and their configuration.
+- Tags and versions on github with `git tag`.
+- Branches and merges with `git branch name-of-the-branch`, `git checkout -b name-of-the-branch` and `git push origin name-of-the-branch`.
+- Make a pull request.
+- Ignore files with .gitignore.
+- README.md
+- Git rebase, git statsh, git clean, git cherry-pick, git amend.
+- Git grep
 
 
 
