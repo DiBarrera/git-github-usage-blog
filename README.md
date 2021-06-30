@@ -181,6 +181,23 @@ You can see the path in commits made
 | `git fetch`    | Shows the changes that have been made between commit 1 identified as hash-1 and commit 2 identified as hash-2. |
 | `git fetch olf-hash`    | Downloads changes from remote repository to the git repository, but does not copy them into the working directory. | 
 
+## Gitk
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `gitk`    | Shows the history of the branches in a software. | 
+
+## Grep
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git grep "word"`    | Search inside the repository where the word "word" has been used and show the file. |
+| `git grep -c "word"`    | Search inside the repository where the word "word" has been used, show the file and how many times has been used. |
+| `git grep -n "word"`    | Search inside the repository where the word "word" has been used, show the file and in which line it is. | 
+
+## Help
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git command-name --help`    | Shows how the command command-name works and its description. | 
+
 
 <!-- Acquired skills -->
 ## Acquired skills
