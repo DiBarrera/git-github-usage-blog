@@ -199,6 +199,37 @@ You can see the path in commits made
 | `git command-name --help`    | Shows how the command command-name works and its description. | 
 
 
+## Init
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git init repository-name`    | Create a repository with the name repository-name. | 
+
+## Ssh
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `ssh-keygen -t rsa -b 4096 C "mail@host.com"`    | Create a public and private key to automatically connect git with github. |
+| `cat ~/.ssh/id_rsa.pub`    | Copy the content of the created key. |
+| `eval$(ssh-agent -s)`    | Turn on the keyserver. |
+| `ssh-add ~/.ssh/id_rsa`    | Add the private key to the system from the path where it is stored. |
+| `ssh-add -L`    | List all active keys. | 
+
+## Log
+| Command      | Description                         |
+| ------------- | ------------------------------ |
+| `git log`    | Shows the history of the commits inside the repository with their respective authors, time and description. |
+| `git log --all`    | Shows all the history of the commits inside the repository with their respective authors, time and description. |
+| `git log --all --graph --decorate --online`    | Shows the history of the commits of the project in a graphic and orderly way. |
+| `git log file-name.ext`    | Shows the history of the commits regarding the file file-name.ext with its respective authors, time and description. |
+| `git log -S "word"`    | Search within commits where the word "word" has been used. |
+| `git log --stat`    | Shows the specific changes of each file according to their commits. |
+| `git log reflog`    | Show the entire history of the repository with its HEAD. |
+| `git shortlog`    | Shows all commits made by each contributor. |
+| `git shortlog -sn`    | Shows the number of commits made by each contributor. |
+| `git shortlog -sn --all`    | Shows the number of commits made by each contributor, including deleted commits. |
+| `git shortlog -sn --all --no merges`    | Shows the number of commits made by each contributor, including deleted commits, not including merged branches. | 
+
+
+
 <!-- Acquired skills -->
 ## Acquired skills
 
